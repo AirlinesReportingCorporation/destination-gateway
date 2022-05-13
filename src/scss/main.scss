@@ -1,0 +1,8 @@
+//import all arccorp vars
+@use "~arccorp-vars/src/scss/main";
+
+//page styles
+.arc-thirdparty-page {
+  color: main.$tarmac;
+  width: 100%;
+}
