@@ -3,6 +3,11 @@
 
 //page styles
 .arc-thirdparty-page {
-  color: main.$tarmac;
+  background: main.$tarmac;
   width: 100%;
+}
+
+.arc-thirdparty-jumbo {
+  margin-top: main.$spacing-4;
+  margin-bottom: main.$spacing-4;
 }
