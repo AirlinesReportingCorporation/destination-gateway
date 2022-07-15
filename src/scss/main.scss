@@ -8,6 +8,165 @@
 }
 
 .arc-thirdparty-jumbo {
+  margin: 0 auto;
+  max-width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  .arc-thirdparty-title {
+    padding-left: main.$spacing-4 * 2;
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+    height: 600px;
+
+    color: #6c6d70;
+    background: -webkit-linear-gradient(180deg, #ff1b71, #ff1b71 20%, #ffa619);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    -moz-text-fill-color: rgba(0, 0, 0, 0);
+
+    h1 {
+      font-family: main.$arc-font-bold;
+      font-weight: normal;
+      font-size: 66px;
+      line-height: 64px;
+    }
+  }
+
+  .arc-thirdparty-subtitle {
+    color: main.$clearskies;
+    font-family: main.$arc-font-bold;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 64px;
+    padding: 50px;
+
+    span.highlight {
+      color: main.$tarmac;
+    }
+  }
+
+  .icon-arc-logo {
+    font-size: 44px;
+    align-items: center;
+  }
+}
+
+.arc-thirdparty-jumbo-card {
+  background: main.$autopilot;
+  border-radius: main.$border-radius-lg;
+  height: 592px;
+  display: flex;
+  align-items: center;
   margin-top: main.$spacing-4;
   margin-bottom: main.$spacing-4;
+
+  &.card-1 {
+    background: url("https://www2.arccorp.com/globalassets/thirdparty/jumbo.png")
+      center center / cover no-repeat;
+  }
+
+  &.card-2 {
+    background: main.$arc-teal;
+  }
+}
+
+.arc-thirdparty-border {
+  border-top: 1px solid main.$landing;
+  padding-top: 50px;
+}
+
+.arc-thirdparty-h2 {
+  color: main.$white;
+  font-size: 72px;
+  font-family: main.$arc-font-bold;
+  margin-bottom: 60px;
+  line-height: 1;
+}
+
+.arc-thirdparty-left {
+  margin-bottom: 90px;
+}
+
+.arc-thirdparty-right {
+  border-top: main.$landing 1px solid;
+  padding-top: 30px;
+  margin-bottom: 90px;
+  margin-left: auto;
+}
+
+.arc-thirdparty-number {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.arc-thirdparty-icon {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.arc-thirdparty-copy {
+  font-size: 30px;
+  line-height: 38px;
+  color: main.$landing;
+  max-width: 580px;
+  span {
+    color: main.$white;
+    font-family: main.$arc-font-semibold;
+  }
+}
+
+.arc-thirdparty-right-bold {
+  color: main.$landing;
+  font-family: main.$arc-font-bold;
+  font-size: 22px;
+}
+
+.arc-thirdparty-source {
+  color: main.$white;
+  font-family: main.$arc-font-bold;
+  font-size: 22px;
+}
+
+.arc-thirdparty-source-copy {
+  color: main.$landing;
+  font-size: 22px;
+  line-height: 1;
+  margin-top: 18px;
+  margin-bottom: 28px;
+  max-width: 280px;
+}
+
+.arc-thirdparty-datasource {
+  background: url("https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-datasource.png")
+    center center no-repeat;
+  background-size: cover;
+  padding: 50px 20px;
+  min-height: 450px;
+  border-radius: main.$border-radius;
+  margin-bottom: 30px;
+}
+
+.arc-thirdparty-datasource-title {
+  color: main.$arc-teal;
+  font-family: main.$arc-font-bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 18px;
+  line-height: 1;
+}
+
+.arc-thirdparty-datasource-copy {
+  color: main.$landing;
+  margin-bottom: 18px;
+  font-family: main.$arc-font-semibold;
+  font-size: 16px;
+  line-height: 22px;
+
+  &.bold {
+    color: main.$white;
+    font-family: main.$arc-font-bold;
+  }
 }

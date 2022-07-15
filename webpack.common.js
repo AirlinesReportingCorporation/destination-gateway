@@ -38,6 +38,8 @@ module.exports = {
   resolve: {
     alias: {
       vue: "vue/dist/vue.js",
+      "react-spring$": "react-spring/web.cjs",
+      "react-spring/renderprops$": "react-spring/renderprops.cjs",
     },
     extensions: ["*", ".js", ".jsx"],
   },
