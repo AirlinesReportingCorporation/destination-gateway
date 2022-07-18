@@ -65,7 +65,7 @@ class App extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-8">
+            <div className="col-md-8">
               <div className="arc-thirdparty-left">
                 <div className="arc-thirdparty-copy">
                   The potential traveler is in the shopping process;{" "}
@@ -73,7 +73,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-md-4">
               <div className="arc-thirdparty-right">
                 <div className="arc-thirdparty-right-bold">
                   The journey begins
@@ -101,7 +101,7 @@ class App extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-8">
+            <div className="col-md-8">
               <div className="arc-thirdparty-left">
                 <div className="arc-thirdparty-copy">
                   <span>
@@ -113,7 +113,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-md-4">
               <div className="arc-thirdparty-right">
                 <div className="arc-thirdparty-source">Source of this data</div>
                 <div className="arc-thirdparty-source-copy">
@@ -146,7 +146,7 @@ class App extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-8">
+            <div className="col-md-8">
               <div className="arc-thirdparty-left">
                 <div className="arc-thirdparty-copy">
                   <span>
@@ -158,7 +158,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-md-4">
               <div className="arc-thirdparty-right">
                 <div className="arc-thirdparty-source">Source of this data</div>
                 <div className="arc-thirdparty-source-copy">
@@ -191,7 +191,7 @@ class App extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-8">
+            <div className="col-md-8">
               <div className="arc-thirdparty-left">
                 <div className="arc-thirdparty-copy">
                   <span>
@@ -202,7 +202,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-md-4">
               <div className="arc-thirdparty-right">
                 <div className="arc-thirdparty-source">Source of this data</div>
                 <div className="arc-thirdparty-source-copy">ARC or IATA</div>
@@ -238,7 +238,7 @@ class App extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-8">
+            <div className="col-md-8">
               <div className="arc-thirdparty-left">
                 <div className="arc-thirdparty-copy">
                   <span>
@@ -249,7 +249,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-md-4">
               <div className="arc-thirdparty-right">
                 <div className="arc-thirdparty-source">Source of this data</div>
                 <div className="arc-thirdparty-source-copy">

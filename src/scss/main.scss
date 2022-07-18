@@ -12,6 +12,7 @@
   max-width: 1230px;
   padding-right: 15px;
   padding-left: 15px;
+  margin-bottom: main.$spacing-2;
 
   .arc-thirdparty-title {
     padding-left: main.$spacing-4 * 2;
@@ -60,8 +61,8 @@
   height: 592px;
   display: flex;
   align-items: center;
-  margin-top: main.$spacing-4;
-  margin-bottom: main.$spacing-4;
+  margin-top: main.$spacing-2;
+  margin-bottom: main.$spacing-2;
 
   &.card-1 {
     background: url("https://www2.arccorp.com/globalassets/thirdparty/jumbo.png")
@@ -168,5 +169,11 @@
   &.bold {
     color: main.$white;
     font-family: main.$arc-font-bold;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .arc-thirdparty-datasource {
+    min-height: auto;
   }
 }
