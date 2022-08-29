@@ -8,265 +8,335 @@ class App extends Component {
   render() {
     return (
       <div className="arc-thirdparty-page">
-        <div className="arc-thirdparty-jumbo">
-          <div className="row">
-            <div className="col-lg-8">
-              <div className="arc-thirdparty-jumbo-card card-1">
+        <div className="arc-thirdparty-jumbo-container">
+          <div className="arc-thirdparty-jumbo">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
                 <div className="arc-thirdparty-title">
                   <h1>
                     How <br />
-                    <span className="icon-arc-logo"></span> Data <br />
+                    <span className="icon-arc-logo"></span> <span>Data</span>{" "}
+                    <br />
                     Fits Into the
                     <br />
                     Travel Journey
                   </h1>
+                  <a href="#" className="ctaBtn">
+                    Request a Demo
+                  </a>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="arc-thirdparty-jumbo-card card-2">
-                <div className="arc-thirdparty-subtitle">
-                  <span class="icon-arc-logo"></span> <br />
-                  <span className="highlight">data is </span>
-                  <br />
-                  settled
-                  <br />
-                  ticketing
-                  <br />
-                  <span className="highlight">data.</span>
-                </div>
+              <div className="col-lg-6">
+                <img
+                  className="arc-third-party-img img-fluid"
+                  src="https://www2.arccorp.com/globalassets/thirdparty/v6-jumbo.png?1"
+                />
               </div>
             </div>
           </div>
         </div>
-        <div className="container arc-thirdparty-border">
-          <div className="row">
-            <div className="col-lg-12">
-              <h2 className="arc-thirdparty-h2">Air Ticket Journey</h2>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="">
-                <div className="d-flex align-items-center">
-                  <img
-                    src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-1.png"
-                    alt="Search"
-                    className="arc-thirdparty-number"
-                  />
-                  <img
-                    src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-search.png"
-                    alt="Search"
-                    className="arc-thirdparty-icon"
-                  />
-                </div>
-                <h2 className="arc-thirdparty-h2 type-color-teal">Search</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-8">
-              <div className="arc-thirdparty-left">
-                <div className="arc-thirdparty-copy">
-                  The potential traveler is in the shopping process;{" "}
-                  <span>there’s no transaction yet.</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="arc-thirdparty-right">
-                <div className="arc-thirdparty-right-bold">
-                  The journey begins
+        <div className="arc-thirdparty-section-container">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="arc-thirdparty-ticketing-container">
+                  <h2>
+                    <span className="icon-arc-logo"></span> data is settled
+                    ticketing data
+                  </h2>
                 </div>
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="">
-                <div className="d-flex align-items-center">
-                  <img
-                    src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-2.png"
-                    alt="Book"
-                    className="arc-thirdparty-number"
-                  />
-                  <img
-                    src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-book.png"
-                    alt="Book"
-                    className="arc-thirdparty-icon"
-                  />
+
+          <div className="arc-thirdpary-step-container ">
+            <div className="row">
+              <div className="col-lg-12 text-center">
+                <h2 className="arc-thirdparty-h2">Air Ticket Journey</h2>
+              </div>
+            </div>
+            <div className="row no-gutters">
+              <div className="col-lg-6">
+                <div className="half-container left">
+                  <div className="arc-thirdparty-card h-100">
+                    <div className="arc-thirdparty-number">1</div>
+                    <div className="arc-thirdparty-card-inner">
+                      <h2 className="arc-thirdparty-h2 m-60">Search</h2>
+                      <div className="arc-thirdparty-card-body">
+                        The buyer is in the shopping process; there’s no
+                        transaction yet. This{" "}
+                        <span>demonstrates interest in traveling</span> to a
+                        specific destination.
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <h2 className="arc-thirdparty-h2 type-color-teal">Book</h2>
+              </div>
+              <div className="col-lg-6">
+                <div className="gray-half">
+                  <div className="half-container right">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/thirdparty/search-side.png?1"
+                      alt=""
+                      className="img-fluid"
+                      style={{ marginTop: "-20px" }}
+                    />
+                  </div>
+                </div>
+                <div className="arc-thirdparty-card card-half">
+                  <div className="arc-thirdparty-card-inner">
+                    <h3 className="arc-thirdparty-h3">
+                      Available source of this data.
+                    </h3>
+                    <div className="arc-thirdparty-card-body">
+                      ForwardKeys offers search insights based on data processed
+                      by Kiwi.com. Kiwi.com works with online travel agencies,
+                      metasearch companies and airlines to create a
+                      comprehensive dataset.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="arc-thirdparty-step-under">
+                  The journey begins...
+                </div>
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-8">
-              <div className="arc-thirdparty-left">
-                <div className="arc-thirdparty-copy">
-                  <span>
-                    The traveler makes a reservation in the Global Distribution
-                    System (GDS)
-                  </span>
-                  , and space is held in a PNR. The PNR may or may not include a
-                  passenger name, the final ticket price and other information.
+
+          <div className="arc-thirdpary-step-container margin-top">
+            <div className="row no-gutters">
+              <div className="col-lg-6">
+                <div className="tarmac-half">
+                  <div className="half-container left">
+                    <div className="arc-thirdparty-card h-100">
+                      <div className="arc-thirdparty-number">2</div>
+                      <div className="arc-thirdparty-card-inner">
+                        <h2 className="arc-thirdparty-h2 m-60">Book</h2>
+                        <div className="arc-thirdparty-card-body">
+                          The buyer, working with their travel agent, makes a
+                          reservation in the Global Distribution System (GDS)
+                          and space is held in a Passenger Name Record (PNR).
+                          The unticketed PNR may or may not contain fare
+                          information and indicates the buyer’s{" "}
+                          <span>intent to purchase</span> but does not confirm
+                          it.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="half-container">
+                  <div className="arc-thirdparty-card gray">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/thirdparty/purchase-side.png?1"
+                      alt=""
+                      className="img-fluid"
+                      style={{ marginTop: "-20px" }}
+                    />
+                  </div>
+                </div>
+                <div className="arc-thirdparty-card card-half">
+                  <div className="arc-thirdparty-card-inner">
+                    <h3 className="arc-thirdparty-h3">
+                      Available source of this data.
+                    </h3>
+                    <div className="arc-thirdparty-card-body">
+                      The GDSs sell “booked” data through their “MIDT” products.
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="arc-thirdparty-right">
-                <div className="arc-thirdparty-source">Source of this data</div>
-                <div className="arc-thirdparty-source-copy">
-                  Data is known as “MIDT” and is available from GDSs.
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="arc-thirdparty-step-under">
+                  <img src="https://www2.arccorp.com/globalassets/thirdparty/gds-logo.png?1" />{" "}
+                  Global Distribution Systems
                 </div>
-                <img
-                  src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-gds.png"
-                  alt="GDS"
-                />
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="">
-                <div className="d-flex align-items-center">
-                  <img
-                    src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-3.png"
-                    alt="Ticket"
-                    className="arc-thirdparty-number"
-                  />
-                  <img
-                    src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-ticket.png"
-                    alt="Ticket"
-                    className="arc-thirdparty-icon"
-                  />
+
+          <div className="arc-thirdpary-step-container margin-top">
+            <div className="row no-gutters">
+              <div className="col-lg-6">
+                <div className="half-container left">
+                  <div className="arc-thirdparty-card h-100">
+                    <div className="arc-thirdparty-number">3</div>
+                    <div className="arc-thirdparty-card-inner">
+                      <h2 className="arc-thirdparty-h2 m-60">Ticket</h2>
+                      <div className="arc-thirdparty-card-body">
+                        The travel agent generates a ticket for the traveler
+                        using the PNR. It contains the traveler’s name,
+                        itinerary, ticket price and form of payment. The travel
+                        agent then has the next business day to void the ticket
+                        or make certain changes. The traveler’s{" "}
+                        <span>intent to travel is confirmed</span>, but the
+                        ticket is not “locked down” yet.
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <h2 className="arc-thirdparty-h2 type-color-teal">Ticket</h2>
+              </div>
+              <div className="col-lg-6">
+                <div className="gray-half">
+                  <div
+                    className="half-container right"
+                    style={{ height: "344px" }}
+                  >
+                    <img
+                      src="https://www2.arccorp.com/globalassets/thirdparty/ticket-side.png?1"
+                      alt=""
+                      className="img-fluid"
+                      style={{ minHeight: "354px", marginTop: "-8px" }}
+                    />
+                  </div>
+                </div>
+                <div className="arc-thirdparty-card card-half">
+                  <div className="arc-thirdparty-card-inner">
+                    <h3 className="arc-thirdparty-h3">
+                      Available source of this data.
+                    </h3>
+                    <div className="arc-thirdparty-card-body">
+                      Available from ARC.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="arc-thirdparty-step-under">
+                  <img src="https://www2.arccorp.com/globalassets/thirdparty/arc-logo.png?1" />{" "}
+                  Airlines Reporting Corporation
+                </div>
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-8">
-              <div className="arc-thirdparty-left">
-                <div className="arc-thirdparty-copy">
-                  <span>
-                    The airline generates a ticket and issues a travel document
-                  </span>{" "}
-                  with the traveler’s name, price and form of payment. The
-                  ticket can still be modified for 24 hours, including changes
-                  to commission or voiding.
+
+          <div className="arc-thirdpary-step-container margin-top">
+            <div className="row no-gutters">
+              <div className="col-lg-6">
+                <div className="tarmac-half">
+                  <div className="half-container left">
+                    <div className="arc-thirdparty-card h-100">
+                      <div className="arc-thirdparty-number">4</div>
+                      <div className="arc-thirdparty-card-inner">
+                        <h2 className="arc-thirdparty-h2 m-60">Settle</h2>
+                        <div className="arc-thirdparty-card-body">
+                          One business day after a ticket is issued, the ticket
+                          is “locked down” and cannot be changed or voided. A
+                          settled ticket confirms{" "}
+                          <span>final intent to travel</span>.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="half-container">
+                  <div className="arc-thirdparty-card gray">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/thirdparty/purchase-side.png?1"
+                      alt=""
+                      className="img-fluid"
+                      style={{ marginTop: "-20px" }}
+                    />
+                  </div>
+                </div>
+                <div className="arc-thirdparty-card card-half">
+                  <div className="arc-thirdparty-card-inner">
+                    <h3 className="arc-thirdparty-h3">
+                      Available source of this data.
+                    </h3>
+                    <div className="arc-thirdparty-card-body">
+                      Available from ARC or IATA.
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="arc-thirdparty-right">
-                <div className="arc-thirdparty-source">Source of this data</div>
-                <div className="arc-thirdparty-source-copy">
-                  Data is known as “TCN” and is available from ARC
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="arc-thirdparty-step-under d-flex justify-content-center">
+                  <div className="mr-5">
+                    <img src="https://www2.arccorp.com/globalassets/thirdparty/arc-logo.png?1" />{" "}
+                    Airlines Reporting Corporation
+                  </div>
+                  <div>
+                    <img src="https://www2.arccorp.com/globalassets/thirdparty/iata-logo.png?1" />{" "}
+                    IATA
+                  </div>
                 </div>
-                <img
-                  src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-arc.png"
-                  alt="ARC"
-                />
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="">
-                <div className="d-flex align-items-center">
-                  <img
-                    src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-4.png"
-                    alt="Settled"
-                    className="arc-thirdparty-number"
-                  />
-                  <img
-                    src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-settled.png"
-                    alt="Settled"
-                    className="arc-thirdparty-icon"
-                  />
-                </div>
-                <h2 className="arc-thirdparty-h2 type-color-teal">Settled</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-8">
-              <div className="arc-thirdparty-left">
-                <div className="arc-thirdparty-copy">
-                  <span>
-                    The ticket is “locked down” and cannot be changed without a
-                    further transaction
-                  </span>
-                  , like exchange or refund.
+
+          <div className="arc-thirdpary-step-container margin-top">
+            <div className="row no-gutters">
+              <div className="col-lg-6">
+                <div className="half-container left">
+                  <div className="arc-thirdparty-card h-100">
+                    <div className="arc-thirdparty-number">5</div>
+                    <div className="arc-thirdparty-card-inner">
+                      <h2 className="arc-thirdparty-h2 m-60">Fly</h2>
+                      <div className="arc-thirdparty-card-body">
+                        The traveler has{" "}
+                        <span>presented and redeemed the ticket</span>.
+                        Generally, only the airlines have full visibility into
+                        this status
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
-              <div className="arc-thirdparty-right">
-                <div className="arc-thirdparty-source">Source of this data</div>
-                <div className="arc-thirdparty-source-copy">ARC or IATA</div>
-                <img
-                  src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-arc.png"
-                  alt="ARC"
-                  className="mr-2"
-                />
-                <img
-                  src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-iata.png"
-                  alt="IATA"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="">
-                <div className="d-flex align-items-center">
-                  <img
-                    src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-5.png"
-                    alt="Flown"
-                    className="arc-thirdparty-number"
-                  />
-                  <img
-                    src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-flown.png"
-                    alt="Flown"
-                    className="arc-thirdparty-icon"
-                  />
+              <div className="col-lg-6">
+                <div className="gray-half">
+                  <div
+                    className="half-container right"
+                    style={{ padding: "60px 0" }}
+                  >
+                    <img
+                      src="https://www2.arccorp.com/globalassets/thirdparty/fly-side.png?2"
+                      alt=""
+                      className="img-fluid"
+                    />
+                  </div>
                 </div>
-                <h2 className="arc-thirdparty-h2 type-color-teal">Flown</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-8">
-              <div className="arc-thirdparty-left">
-                <div className="arc-thirdparty-copy">
-                  <span>
-                    The traveler has presented and redeemed the ticket.
-                  </span>{" "}
-                  Generally, only the airlines have full visibility into this
-                  status.
+                <div className="arc-thirdparty-card card-half">
+                  <div className="arc-thirdparty-card-inner">
+                    <h3 className="arc-thirdparty-h3">
+                      Available source of this data.
+                    </h3>
+                    <div className="arc-thirdparty-card-body">
+                      Tickets that involve U.S. travel are reported as a 10%
+                      sample to the U.S. Department of Transportation and are
+                      available in T-100 or DB1B reports. Data is available 3-4
+                      months after travel is complete.
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="arc-thirdparty-right">
-                <div className="arc-thirdparty-source">Source of this data</div>
-                <div className="arc-thirdparty-source-copy">
-                  Tickets that involve U.S. travel are reported as a 10% sample
-                  to the U.S. Department of Transportation and are available in
-                  T-100 or DB1B reports. Data is available 3-4 months after
-                  travel is complete.
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="arc-thirdparty-step-under d-flex justify-content-center">
+                  <div className="mr-5">
+                    <img src="https://www2.arccorp.com/globalassets/thirdparty/dot-logo.png?1" />{" "}
+                    Department of Transportation
+                  </div>
+                  <div>
+                    <img src="https://www2.arccorp.com/globalassets/thirdparty/airline-logo.png?1" />{" "}
+                    Airlines
+                  </div>
                 </div>
-                <img
-                  src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-dot.png"
-                  alt="DOT"
-                  className="mr-2"
-                />
-                <img
-                  src="https://www2.arccorp.com/globalassets/thirdparty/arc-thirdparty-plane.png"
-                  alt="plane"
-                />
               </div>
             </div>
           </div>
@@ -274,19 +344,19 @@ class App extends Component {
 
         <div
           className="container arc-thirdparty-border"
-          style={{ marginBottom: "60px" }}
+          style={{ marginTop: "90px", marginBottom: "60px" }}
         >
           <div className="row">
-            <div className="col-lg-12">
-              <h2 className="arc-thirdparty-h2">ARC's Data Sources</h2>
+            <div className="col-lg-12 text-center">
+              <h2 className="arc-thirdparty-h2 tarmac">ARC's Data Sources</h2>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4">
               <div className="arc-thirdparty-datasource">
-                <div className="arc-thirdparty-datasource-title">
+                <div className="arc-thirdparty-datasource-title blue">
                   Area Settlement Plan <br />
-                  (ASP)
+                  <span>(ASP)</span>
                 </div>
                 <div className="arc-thirdparty-datasource-copy bold">
                   ARC is the clearinghouse for airline tickets sold via travel
@@ -304,9 +374,9 @@ class App extends Component {
             </div>
             <div className="col-lg-4">
               <div className="arc-thirdparty-datasource">
-                <div className="arc-thirdparty-datasource-title">
+                <div className="arc-thirdparty-datasource-title green">
                   Billing and Settlement Plan <br />
-                  (BSP)
+                  <span>(BSP)</span>
                 </div>
                 <div className="arc-thirdparty-datasource-copy bold">
                   Tickets sold via travel agencies outside the U.S. are
@@ -320,14 +390,15 @@ class App extends Component {
             </div>
             <div className="col-lg-4">
               <div className="arc-thirdparty-datasource">
-                <div className="arc-thirdparty-datasource-title">
-                  Direct data<br/>
+                <div className="arc-thirdparty-datasource-title orange">
+                  Direct data
+                  <br />
                 </div>
                 <div className="arc-thirdparty-datasource-copy bold">
                   ARC and IATA jointly operate a global partnership known as
-                  Direct Data Solutions, which includes data from approximately
-                  90 airlines that have opted to provide their direct ticket
-                  sales data.
+                  Direct Data Solutions, which includes data from more than 100
+                  airlines that have opted to provide their direct ticket sales
+                  data.
                 </div>
                 <div className="arc-thirdparty-datasource-copy">
                   Direct tickets are largely tickets sold via the airline’s
