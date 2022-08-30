@@ -395,10 +395,58 @@
   .arc-thirdparty-card.card-half {
     width: auto;
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-bottom: 30px;
     margin-bottom: 30px;
+  }
+
+  .arc-thirdpary-step-container .half-container.left {
+    margin: 0 0 1rem;
+  }
+
+  .arc-thirdpary-step-container .gray-half {
+    border-radius: 20px;
+    margin: 30px;
+    height: auto;
+  }
+
+  .arc-thirdpary-step-container .tarmac-half {
+    background: transparent;
+    margin-right: 0;
+  }
+
+  .arc-thirdparty-card {
+    margin: 30px;
+  }
+
+  .arc-thirdparty-h2 {
+    font-size: 32px;
+    line-height: 1.2;
+
+    &.m-60 {
+      margin-bottom: 15px;
+    }
+  }
+
+  .arc-thirdparty-card-body {
+    font-size: 18px;
+    line-height: 1.2;
+
+    &.smaller {
+      font-size: 16px;
+      line-height: 1.2;
+    }
+  }
+
+  .arc-thirdparty-step-under {
+    flex-direction: column;
+    line-height: 1;
+    font-size: 18px;
+    div {
+      margin-bottom: 15px;
+      img {
+        margin-right: 5px;
+      }
+    }
   }
 
   .tarmac-half {
@@ -407,6 +455,11 @@
 
   .arc-thirdpary-step-container .half-container {
     position: relative;
+    height: auto !important;
+    img {
+      height: auto !important;
+      min-height: 0 !important;
+    }
     //margin: 15px 15px 30px;
   }
 

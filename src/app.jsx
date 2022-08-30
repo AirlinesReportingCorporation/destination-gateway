@@ -268,7 +268,7 @@ class App extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="arc-thirdparty-step-under d-flex justify-content-center">
-                  <div className="mr-5">
+                  <div className="mr-lg-5">
                     <img src="https://www2.arccorp.com/globalassets/thirdparty/arc-logo.png?1" />{" "}
                     Airlines Reporting Corporation
                   </div>
@@ -330,7 +330,7 @@ class App extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="arc-thirdparty-step-under d-flex justify-content-center">
-                  <div className="mr-5">
+                  <div className="mr-lg-5">
                     <img src="https://www2.arccorp.com/globalassets/thirdparty/dot-logo.png?1" />{" "}
                     Department of Transportation
                   </div>
