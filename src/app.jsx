@@ -346,7 +346,7 @@ class App extends Component {
 
         <div
           className="container arc-thirdparty-border"
-          style={{ marginTop: "200px", marginBottom: "60px" }}
+          style={{ marginTop: "145px", marginBottom: "60px" }}
         >
           <div className="row">
             <div className="col-lg-12 text-center">
