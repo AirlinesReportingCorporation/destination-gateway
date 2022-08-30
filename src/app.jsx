@@ -417,7 +417,7 @@ class App extends Component {
             <div className="col-lg-12">
               <div
                 class="callout-box teal"
-                style={{ borderRadius: "20px", marginBottom: "90px", paddingTop: "90px", paddingBottom: "90px" }}
+                style={{ borderRadius: "20px", marginBottom: "30px", paddingTop: "90px", paddingBottom: "90px" }}
               >
                 <div class="row">
                   <div class="col-lg-12">
