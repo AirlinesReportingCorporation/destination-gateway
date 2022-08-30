@@ -7,12 +7,13 @@
 
 .arc-thirdpary-step-container {
   &.margin-top {
-    margin-top: 120px;
+    margin-top: 160px;
   }
   .gray-half {
     background: main.$altitude-gray;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    height: 345px;
   }
   .tarmac-half {
     background: main.$tarmac;
@@ -59,7 +60,7 @@
 
 .arc-thirdparty-card {
   background: main.$tarmac;
-  padding: 80px;
+  padding: 60px;
   border-radius: 20px;
   position: relative;
   //height: 100%;
@@ -73,6 +74,7 @@
   &.gray {
     background: main.$altitude-gray;
     padding: 0;
+    height: 345px;
   }
 
   &.card-half {
@@ -89,6 +91,10 @@
     color: main.$white;
     font-family: main.$arc-font-semibold;
   }
+  &.smaller {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 .arc-thirdparty-card-inner {
@@ -99,7 +105,7 @@
 
 //page styles
 .arc-thirdparty-page {
-  background: main.$white;
+  background: #f6f6f6;
   width: 100%;
 }
 
@@ -120,11 +126,11 @@
     margin-top: -102px;
 
     color: main.$white;
-    span {
+    .arc-thirdparty-gradient {
       background: -webkit-linear-gradient(
         180deg,
         #ffa619,
-        #ff1b71 80%,
+        #f77f00 29%,
         #ff1b71
       );
       -webkit-background-clip: text;
@@ -139,6 +145,7 @@
       font-weight: normal;
       font-size: 66px;
       line-height: 64px;
+      margin-bottom: 55px;
     }
   }
 
@@ -168,8 +175,8 @@
 .arc-thirdparty-step-under {
   font-size: 28px;
   text-align: center;
-  font-family: main.$arc-font-bold;
-  color: main.$altitude-gray;
+  font-family: main.$arc-font-semibold;
+  color: main.$overcast;
   padding: 30px 0;
 }
 
@@ -193,15 +200,15 @@
 }
 
 .arc-thirdparty-section-container {
-  background: main.$white;
+  background: #f6f6f6;
 }
 
 .arc-thirdparty-ticketing-container {
   background: main.$tarmac;
   padding: 90px 70px;
   border-radius: 20px;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 160px;
+  margin-bottom: 160px;
 
   h2 {
     font-size: 66px;
@@ -216,12 +223,13 @@
 }
 
 .arc-thirdparty-h2 {
+  display: inline-block;
   color: main.$tarmac;
   font-size: 72px;
   font-family: main.$arc-font-bold;
   margin-bottom: 90px;
-  line-height: 1;
-  background: -webkit-linear-gradient(180deg, #ffa619, #ff1b71 80%, #ff1b71);
+  line-height: auto;
+  background: -webkit-linear-gradient(180deg, #ffa619, #f77f00 29%, #ff1b71);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
@@ -245,7 +253,7 @@
   font-size: 24px;
   font-family: main.$arc-font-bold;
   line-height: 32px;
-  background: -webkit-linear-gradient(180deg, #ffa619, #ff1b71 80%, #ff1b71);
+  background: -webkit-linear-gradient(180deg, #ffa619, #f77f00 29%, #ff1b71);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
@@ -261,11 +269,6 @@
   padding-top: 30px;
   margin-bottom: 90px;
   margin-left: auto;
-}
-
-.arc-thirdparty-number {
-  margin-right: 25px;
-  margin-bottom: 25px;
 }
 
 .arc-thirdparty-icon {
@@ -309,20 +312,20 @@
   background: main.$tarmac;
   padding: 40px;
   min-height: 487px;
-  border-radius: main.$border-radius;
-  margin-bottom: 30px;
+  border-radius: 20px;
+  margin-bottom: 90px;
 }
 
 .arc-thirdparty-datasource-title {
   &.blue {
-    background: -webkit-linear-gradient(180deg, #44b2be, #00c4ff 80%, #00c4ff);
+    background: -webkit-linear-gradient(180deg, #00c4ff, #44b2be);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: rgba(0, 0, 0, 0);
     -moz-text-fill-color: rgba(0, 0, 0, 0) ∫;
   }
   &.green {
-    background: -webkit-linear-gradient(180deg, #8ac926, #fcbf49 80%, #fcbf49);
+    background: -webkit-linear-gradient(180deg, #fcbf49, #8ac926);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: rgba(0, 0, 0, 0);
@@ -330,7 +333,7 @@
   }
 
   &.orange {
-    background: -webkit-linear-gradient(180deg, #fcbf49, #fea417 80%, #fea417);
+    background: -webkit-linear-gradient(180deg, #fea417, #fcbf49);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: rgba(0, 0, 0, 0);
@@ -349,13 +352,13 @@
 .arc-thirdparty-datasource-copy {
   color: main.$landing;
   margin-bottom: 18px;
-  font-family: main.$arc-font-semibold;
+  font-family: main.$arc-font-regular;
   font-size: 16px;
   line-height: 22px;
 
   &.bold {
     color: main.$white;
-    font-family: main.$arc-font-bold;
+    font-family: main.$arc-font-semibold;
   }
 }
 
@@ -372,8 +375,12 @@
   height: 120px;
   width: 120px;
   display: flex;
-  align-items: center;
+  align-items: end;
   border-radius: 50%;
+}
+
+.margin-160 {
+  margin-bottom: 160px;
 }
 
 @media (max-width: 767.98px) {
