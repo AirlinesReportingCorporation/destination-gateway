@@ -19,7 +19,7 @@ class App extends Component {
                       <span className="icon-arc-logo"></span> Data
                     </span>{" "}
                     <br />
-                    Fits Into the
+                    Fits into the
                     <br />
                     Travel Journey
                   </h1>
