@@ -13,22 +13,22 @@ class App extends Component {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="arc-thirdparty-title">
-                  <h1>
-                    How <br />
+                  <h1 style={{whiteSpace: "nowrap"}}>
                     <span className="arc-thirdparty-gradient">
                       <span className="icon-arc-logo"></span> Data
                     </span>{" "}
-                    <br />
-                    Fits into the
-                    <br />
-                    Travel Journey
+                    Explained
                   </h1>
-                  <a href="#" className="ctaBtn">
+                  <div className="arc-thirdparty-top-copy" style={{marginBottom: "45px"}}>
+                    Discover how our ticketing data fits into the travel
+                    ecosystem.
+                  </div>
+                  <a href="https://www2.arccorp.com/support-training/product-sales-request" className="ctaBtn">
                     Request a Demo
                   </a>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 text-right">
                 <img
                   className="arc-third-party-img img-fluid"
                   src="https://www2.arccorp.com/globalassets/thirdparty/v6-jumbo.png?1"
@@ -54,7 +54,13 @@ class App extends Component {
           <div className="arc-thirdpary-step-container ">
             <div className="row">
               <div className="col-lg-12 text-center">
-                <h2 className="arc-thirdparty-h2 margin-160">
+                <div className="arc-thirdparty-top-copy">
+                  Follow us through the
+                </div>
+                <h2
+                  className="arc-thirdparty-h2 margin-160"
+                  style={{ lineHeight: "1.1" }}
+                >
                   Air Ticket Journey
                 </h2>
               </div>
@@ -417,7 +423,12 @@ class App extends Component {
             <div className="col-lg-12">
               <div
                 class="callout-box teal"
-                style={{ borderRadius: "20px", marginBottom: "30px", paddingTop: "90px", paddingBottom: "90px" }}
+                style={{
+                  borderRadius: "20px",
+                  marginBottom: "30px",
+                  paddingTop: "90px",
+                  paddingBottom: "90px",
+                }}
               >
                 <div class="row">
                   <div class="col-lg-12">
