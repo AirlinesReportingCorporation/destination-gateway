@@ -1,0 +1,90 @@
+//import all arccorp vars
+@use "~arccorp-vars/src/scss/main";
+
+.arc-sticky-container {
+  height: 56px;
+}
+
+.arc-sticky-inner {
+  height: 100%;
+  background: #189bb0;
+}
+
+.arc-sticky-nav {
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.arc-sticky-menu {
+  height: 100%;
+}
+
+.arc-sticky-links {
+  height: 100%;
+  margin: 0 auto;
+}
+
+a.arc-sticky-title,
+.arc-sticky-title {
+  font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 0px;
+  color: main.$white;
+
+  &:hover,
+  &:active {
+    color: #ffffff;
+    opacity: 0.8;
+  }
+}
+
+a.arc-sticky-link,
+a.arc-sticky-link-right {
+  font-family: SourceSansPro-SemiBold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 0 10px;
+  color: #ffffff;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: #ffffff;
+    opacity: 0.9;
+  }
+}
+
+a.arc-sticky-link-right,
+a.arc-sticky-link-right:active,
+a.arc-sticky-link-right:focus,
+a.arc-sticky-link-right:hover {
+  color: #ffffff;
+  padding-right: 0;
+}
+
+a.arc-sticky-link-right i,
+a.arc-sticky-link-right svg {
+  font-size: 10px;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+.arc-sticky-brand img {
+  height: 16px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.arc-sticky-title {
+  font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 0px;
+  color: #ffffff;
+}
+
+@media (max-width: 990px) {
+  .arc-sticky-container {
+    display: none;
+  }
+}
