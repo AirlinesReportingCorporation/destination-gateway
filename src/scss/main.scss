@@ -32,15 +32,21 @@
 }
 
 .arc-image-subtitle {
+  text-align: center;
   font-family: main.$arc-font-semibold;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 32px;
-  color: main.$tarmac;
-  background: main.$arc-teal;
+  color: main.$arc-teal;
+  border: 1px solid main.$arc-teal;
   border-radius: main.$border-radius;
   padding: 30px;
   margin-top: 60px;
   margin-bottom: 30px;
+  a.ctaBtn,
+  a.ctaBtn:hover,
+  a.ctaBtn:focus {
+    color: main.$tarmac;
+  }
 }
 
 .arc-image-disclaimer {
@@ -50,4 +56,53 @@
   padding: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.dg-icon-container {
+  max-width: 770px;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dg-icon-item {
+  display: flex;
+  background: main.$tarmac;
+  color: #fff;
+  padding: 40px 20px;
+  border: 1px solid main.$fuselage;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.dg-icon-title {
+  font-family: main.$arc-font-semibold;
+  color: main.$white;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.dg-icon-img {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+.dg-icon-copy {
+  font-family: main.$arc-font-semibold;
+  color: main.$white;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 auto;
+}
+
+.callout-box-container {
+  border-radius: main.$border-radius-lg;
+  padding-bottom: 120px;
+  padding-top: 120px;
+  .callout-box {
+    border-radius: main.$border-radius-lg;
+  }
 }

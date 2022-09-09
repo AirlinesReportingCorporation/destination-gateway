@@ -7,6 +7,7 @@ import LazyLoad from "vanilla-lazyload";
 import ProductLinks from "../components/ProductLinks";
 import ProductCallout from "../components/ProductCallout";
 import ProductQuote from "../components/ProductQuote";
+import ProductIcons from "../components/ProductIcons";
 
 if (!document.lazyLoadInstance) {
   document.lazyLoadInstance = new LazyLoad({
@@ -35,12 +36,14 @@ class App extends Component {
           title={"Desination Gateway"}
           links={[
             { title: "Overview", url: "#overview" },
+            { title: "Partnership", url: "#partnership" },
             { title: "How It Works", url: "#howitworks" },
+            { title: "Modules", url: "#modules" },
           ]}
         />
         <Productjumbo
           backgroundImage={
-            "https://www2.arccorp.com/globalassets/products--participation/arc-pay/arc-pay-jumbo-3.png"
+            "https://www2.arccorp.com/globalassets/destination-gateway/dg-jumbo.png"
           }
           title={
             <>
@@ -65,17 +68,17 @@ class App extends Component {
           className="bg-color-white"
           title={
             <>
-              Generate demand <br />
-              for your destination.{" "}
+              Generate Demand <br />
+              for Your Destination
             </>
           }
           subtitle={
-            "Global air travel data and interest in travel are sourced by ARC and ForwardKeys from multiple sources, including airline ticketing, flight search and schedules data. The data are analyzed and presented to users in intuitive graphs and tables. Destination Gateway’s four modules are updated automatically so you always have the latest information. Most graphs and tables are updated weekly, and some display data by month."
+            "Destination Gateway offers a powerful combination of airline ticketing, web search, airline schedules and capacity data to help drive long-term results for your community’s support and economic growth. "
           }
           eyebrow={"Overview"}
         />
         <ProductText
-          id="overview"
+          id="partnership"
           className="bg-color-black lightgray"
           title={
             <span className="type-color-white">
@@ -87,13 +90,14 @@ class App extends Component {
           subtitleColor={"lightgray"}
           subtitle={
             <>
-              A Collaboration between <span>ARC and ForwardKeys</span>{" "}
-              Destination Gateway is built for managers, marketers and
-              researchers in destination marketing organizations and conventions
-              and visitors bureaus.
+              <span>ARC and ForwardKeys</span> have partnered to offer a
+              customized data intelligence tool for destination marketing
+              organizations, tourism boards, and convention and visitors'
+              bureaus to help you understand travel to your destinations and
+              competing destinations.
             </>
           }
-          eyebrow={"Overview"}
+          eyebrow={"Partnership"}
         />
 
         <div className="bg-color-black">
@@ -102,24 +106,18 @@ class App extends Component {
               <div className="col-lg-12">
                 <img
                   className="img-fluid"
-                  src="https://www2.arccorp.com/globalassets/destination-gateway/dg-graph-1.png"
+                  src="https://www2.arccorp.com/globalassets/destination-gateway/dg-graph-1.png?1"
                   alt=""
                 />
 
                 <div className="arc-image-subtitle">
-                  ARC is the only company in the US authorized to settle
-                  transactions between airlines and travel agencies and is
-                  widely recognized as the most reliable and trusted source of
-                  air travel data.
-                </div>
-
-                <div className="arc-image-disclaimer">
-                  Our data comes from travel agencies and direct from more than
-                  100 major airlines. Travel agency information is only
-                  available in Destination Gateway. All future travel ticketed
-                  through agencies (actual ticketed data) are available.
-                  Frequent updates mean you’re always working with the most
-                  current data available.
+                  <div>
+                    ARC is recognized as the most reliable and trusted source of
+                    air travel data.
+                  </div>
+                  <a href="#" className="ctaBtn">
+                    Let's Get Started
+                  </a>
                 </div>
               </div>
             </div>
@@ -130,51 +128,44 @@ class App extends Component {
           id="howitworks"
           className="bg-color-black lightgray"
           title={
-            <span className="type-color-white">
-              Air travel data and interest, <br />
-              taken from multiple sources.
-            </span>
+            <span className="type-color-white">Comprehensive Travel Data</span>
           }
           subtitleColor={"lightgray"}
           subtitle={
             <>
-              Global air travel data and interest in travel are sourced by ARC
-              and ForwardKeys from multiple sources, including airline
-              ticketing, flight search and schedules data. The data are analyzed
-              and presented to users in intuitive graphs and tables. Destination
-              Gateway’s four modules are updated automatically so you always
-              have the latest information. Most graphs and tables are updated
-              weekly, and some display data by month.
+              Destination Gateway receives global air travel data and interest
+              in travel from multiple sources. The data are processed and
+              presented to users in intuitive graphs and tables in four distinct
+              modules. The modules are updated automatically, so customers
+              always have the latest information to review, and can easily be
+              filtered for comprehensive analysis and reporting.
             </>
           }
           eyebrow={"How It Works"}
         />
 
+        <ProductIcons />
+
         <ProductText
-          id="overview"
-          className="bg-color-fog lightgray"
+          id="modules"
+          className="bg-color-black lightgray"
           title={
-            <>
-              The most comprehensive <br />
-              data and travel analysis
-            </>
+            <span className="type-color-white">
+              Tailored Travel Analysis 
+            </span>
           }
           subtitleColor={"lightgray"}
           subtitle={
             <>
-              Choose the module that best meets your needs. Subscriptions can
-              include one or all of them. When accessed together, they provide
-              the most comprehensive data and travel analysis available.
+              The four modules, Performance, Connectivity, Agencies, and Recovery, provide some of the most comprehensive data and travel analyses. 
             </>
           }
-          eyebrow={"Overview"}
+          eyebrow={"Modules"}
         />
 
         <ProductQuote />
 
         <ProductCallout />
-
-        <ProductLinks />
       </div>
     );
   }

@@ -15,28 +15,27 @@ class ProductCallout extends Component {
 
   render() {
     return (
-      <div id="insights" class="callout-box-container">
+      <div class="callout-box-container">
         <div class="container">
           <div class="callout-box teal">
             <div class="row">
               <div class="col-lg-12">
-                <div class="callout-box-eyebrow">Targeted Insights</div>
-                <div class="callout-box-title">
-                  Looking for a more custom data solution?
+                <div className="text-center mb-4">
+                  <img
+                    src="https://www2.arccorp.com/globalassets/destination-gateway/dg-logos.png"
+                    alt=""
+                  />
                 </div>
+                <div class="callout-box-title">Get Your Insights</div>
                 <div class="callout-box-copy">
-                  ARC's timely, concise and accurate data solutions contain
-                  actionable insights tailored to your organization's unique
-                  business needs. With a staff of analysts, statisticians and
-                  data scientists, ARC's team will consult with you on available
-                  report solutions, including format, frequency, depth and
-                  breadth of data.
+                  Your data awaits! We’re ready to help you increase visitors to
+                  your destination.
                 </div>
                 <a
                   href="https://www2.arccorp.com/products-participation/products/arc-custom-reports/"
                   class="ctaBtn ctaBtn--white  product-cta"
                 >
-                  Learn More
+                  Let's get started
                 </a>
               </div>
             </div>

@@ -18,7 +18,7 @@ class ProductQuote extends Component {
       <div
         className="product-quote product-quote-bg fluid lazy"
         id="customers"
-        data-bg="https://www2.arccorp.com/globalassets/about-us/our-data/third-party/third-party-quote.png?1"
+        data-bg="https://www2.arccorp.com/globalassets/destination-gateway/dg-jumbo.png"
       >
         <div className="container">
           <div className="row">
@@ -30,20 +30,19 @@ class ProductQuote extends Component {
                       <div className="product-quote-mark">&ldquo;</div>
                       <div>
                         <div className="product-quote-copy">
-                          ARC’s data has played an important part in the monthly
-                          Travel Trends Index we prepare for the U.S. Travel
-                          Association. In particular, ARC’s forward-looking
-                          booking data provides an insightful window into
-                          near-term future air passenger trends. Added to that,
-                          ARC’s staff has consistently provided excellent
-                          service to support these custom reports. &rdquo;
+                          I am often confronted with questions such as, ‘How’s
+                          the season picking up?’, ‘How are we ranked vs. other
+                          competitors?’,or ‘What’s our air service capacity like
+                          forthe summer?’. I can now confidently showcase our
+                          direction and performance based on real-time data
+                          monitored and shared via ARC and ForwardKeys.” &rdquo;
                         </div>
                         <div className="product-quote-name">
-                          <strong>Adam Sacks</strong>
+                          <strong>Miles Mercera</strong>
                           <br />
-                          President
+                          CEO
                           <br />
-                          Tourism Economics, An Oxford Economics Company
+                          Tourism Corporation Bonaire
                         </div>
                         <a
                           href="https://www2.arccorp.com/products-participation/customer-success-stories"
