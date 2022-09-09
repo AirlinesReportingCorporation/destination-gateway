@@ -32,7 +32,7 @@ class Productjumbo extends Component {
                   className="ctaBtn product-cta "
                   style={{ marginLeft: "0" }}
                 >
-                  {this.props.ctaTitle ? this.props.ctaTitle: "Learn More"}
+                  {this.props.ctaTitle ? this.props.ctaTitle : "Learn More"}
                 </a>
               </div>
             </div>
@@ -43,6 +43,7 @@ class Productjumbo extends Component {
               <div className="product-callout">
                 <h3
                   className="product-callout-copy teal"
+                  style={{ maxWidth: "900px" }}
                 >
                   {this.props.subtitle}
                 </h3>

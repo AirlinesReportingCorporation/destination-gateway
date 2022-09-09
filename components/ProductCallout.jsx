@@ -32,7 +32,7 @@ class ProductCallout extends Component {
                   your destination.
                 </div>
                 <a
-                  href="https://www2.arccorp.com/products-participation/products/arc-custom-reports/"
+                  href="mailto:dataproducts@arccorp.com"
                   class="ctaBtn ctaBtn--white  product-cta"
                 >
                   Let's get started

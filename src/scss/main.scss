@@ -41,7 +41,13 @@
   }
 
   .swiper-button-prev, .swiper-rtl .swiper-button-next {
-    background: main.$black;
+    background: url("https://www2.arccorp.com/globalassets/destination-gateway/left.png") center center no-repeat;
+    left: 14%;
+  }
+
+  .swiper-button-next, .swiper-rtl .swiper-button-prev{
+    background: url("https://www2.arccorp.com/globalassets/destination-gateway/right.png") center center no-repeat;
+    right: 14%;
   }
 
   .product-header {
@@ -78,7 +84,8 @@
   margin-top: 60px;
   margin-bottom: 30px;
   a.ctaBtn {
-    margin-top: 45px;
+    margin-top: 30px;
+    margin-bottom: 0;
   }
 
   a.ctaBtn,

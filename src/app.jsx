@@ -95,7 +95,7 @@ class App extends Component {
               your destination management and marketing strategies.
             </>
           }
-          ctaLink={"https://www2.arccorp.com"}
+          ctaLink={"mailto:dataproducts@arccorp.com"}
         />
         <ProductText
           id="overview"
@@ -140,7 +140,7 @@ class App extends Component {
               <div className="col-lg-12">
                 <img
                   className="dg-graph img-fluid"
-                  src="https://www2.arccorp.com/globalassets/destination-gateway/dg-graph-1.png?1"
+                  src="https://www2.arccorp.com/globalassets/destination-gateway/dg-graph-2.png?1"
                   alt=""
                 />
 
@@ -149,7 +149,7 @@ class App extends Component {
                     ARC is recognized as the most reliable and trusted source of
                     air travel data.
                   </div>
-                  <a href="#" className="ctaBtn">
+                  <a href="mailto:dataproducts@arccorp.com" className="ctaBtn">
                     Let's Get Started
                   </a>
                 </div>
@@ -413,7 +413,7 @@ class App extends Component {
                     <img
                       src="https://www2.arccorp.com/globalassets/destination-gateway/dg-previous.png"
                       alt=""
-                      style={{height: "27px", width: "27px"}}
+                      style={{ height: "27px", width: "27px" }}
                     />
                     Rolling 12 months, with six months of historical and
                     forward-looking data and an option to compare today’s travel
