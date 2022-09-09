@@ -18,22 +18,22 @@ class ProductQuote extends Component {
       <div
         className="product-quote product-quote-bg fluid lazy"
         id="customers"
-        data-bg="https://www2.arccorp.com/globalassets/destination-gateway/dg-jumbo.png"
+        data-bg="https://www2.arccorp.com/globalassets/destination-gateway/dg-quote.png"
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="product-quote-container">
                 <div className="row">
-                  <div className="col-lg-6">
+                  <div className="col-lg-12">
                     <div className="d-flex">
                       <div className="product-quote-mark">&ldquo;</div>
                       <div>
-                        <div className="product-quote-copy">
+                        <div className="product-quote-copy" style={{maxWidth: "575px"}}>
                           I am often confronted with questions such as, ‘How’s
                           the season picking up?’, ‘How are we ranked vs. other
                           competitors?’,or ‘What’s our air service capacity like
-                          forthe summer?’. I can now confidently showcase our
+                          for the summer?’. I can now confidently showcase our
                           direction and performance based on real-time data
                           monitored and shared via ARC and ForwardKeys.” &rdquo;
                         </div>
@@ -44,12 +44,12 @@ class ProductQuote extends Component {
                           <br />
                           Tourism Corporation Bonaire
                         </div>
-                        <a
+                        {/* <a
                           href="https://www2.arccorp.com/products-participation/customer-success-stories"
                           className="ctaBtn ctaBtn--secondaryOnImage"
                         >
                           More Customer Stories
-                        </a>
+                        </a> */}
                       </div>
                     </div>
                   </div>

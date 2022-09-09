@@ -91,14 +91,15 @@ class App extends Component {
                 You are selling more than a location; you are creating an
                 experience.
               </span>{" "}
-              Appeal to more visitors by incorporating travel data insights into your destination management and marketing strategies.
+              Appeal to more visitors by incorporating travel data insights into
+              your destination management and marketing strategies.
             </>
           }
           ctaLink={"https://www2.arccorp.com"}
         />
         <ProductText
           id="overview"
-          className="bg-color-white"
+          className="bg-color-white overview"
           title={
             <>
               Generate Demand <br />
@@ -112,7 +113,7 @@ class App extends Component {
         />
         <ProductText
           id="partnership"
-          className="bg-color-black lightgray"
+          className="bg-color-black lightgray partnership"
           title={
             <span className="type-color-white">
               International and Cross-
@@ -123,7 +124,11 @@ class App extends Component {
           subtitleColor={"lightgray"}
           subtitle={
             <>
-              <span>ARC and ForwardKeys</span> have partnered to offer a customized data intelligence tool for destination marketing organizations, tourism boards, and convention and visitors' bureaus to help you understand travel to your destinations and competing destinations.
+              <span>ARC and ForwardKeys</span> have partnered to offer a
+              customized data intelligence tool for destination marketing
+              organizations, tourism boards, and convention and visitors'
+              bureaus to help you understand travel to your destinations and
+              competing destinations.
             </>
           }
           eyebrow={"Partnership"}
@@ -134,14 +139,15 @@ class App extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <img
-                  className="img-fluid"
+                  className="dg-graph img-fluid"
                   src="https://www2.arccorp.com/globalassets/destination-gateway/dg-graph-1.png?1"
                   alt=""
                 />
 
                 <div className="arc-image-subtitle">
                   <div>
-                  ARC is recognized as the most reliable and trusted source of air travel data. 
+                    ARC is recognized as the most reliable and trusted source of
+                    air travel data.
                   </div>
                   <a href="#" className="ctaBtn">
                     Let's Get Started
@@ -161,7 +167,12 @@ class App extends Component {
           subtitleColor={"lightgray"}
           subtitle={
             <>
-              Destination Gateway receives global air travel data and interest in travel from multiple sources. The data are processed and presented to users in intuitive graphs and tables in four distinct modules. The modules are updated automatically, so customers always have the latest information to review, and can easily be filtered for comprehensive analysis and reporting.  
+              Destination Gateway receives global air travel data and interest
+              in travel from multiple sources. The data are processed and
+              presented to users in intuitive graphs and tables in four distinct
+              modules. The modules are updated automatically, so customers
+              always have the latest information to review, and can easily be
+              filtered for comprehensive analysis and reporting.
             </>
           }
           eyebrow={"How It Works"}
@@ -171,14 +182,16 @@ class App extends Component {
 
         <ProductText
           id="modules"
-          className="bg-color-black lightgray"
+          className="bg-color-black lightgray modules"
           title={
             <span className="type-color-white">Tailored Travel Analysis</span>
           }
           subtitleColor={"lightgray"}
           subtitle={
             <>
-              The four modules, Performance, Connectivity, Agencies, and Recovery, provide some of the most comprehensive data and travel analyses.
+              The four modules, Performance, Connectivity, Agencies, and
+              Recovery, provide some of the most comprehensive data and travel
+              analyses.
             </>
           }
           eyebrow={"Modules"}
@@ -396,10 +409,11 @@ class App extends Component {
                     />
                     Updates Weekly
                   </div>
-                  <div className="dg-carousel-timing-item long">
+                  <div className="dg-carousel-timing-item long d-flex">
                     <img
                       src="https://www2.arccorp.com/globalassets/destination-gateway/dg-previous.png"
                       alt=""
+                      style={{height: "27px", width: "27px"}}
                     />
                     Rolling 12 months, with six months of historical and
                     forward-looking data and an option to compare today’s travel
@@ -430,45 +444,11 @@ class App extends Component {
                 ""
               )}
             </div>
-            <div className="dg-carousel-disclaimer">
-              {this.state.currentSlide == "performance" ? (
-                <>
-                  Data can be exported as .CSV files for deeper analysis in
-                  Excel or used in commonly available business intelligence
-                  tools.
-                </>
-              ) : (
-                ""
-              )}
-              {this.state.currentSlide == "agencies" ? (
-                <>
-                  Graphs can easily be exported for presentations, documents and
-                  reports. Data can be exported as .CSV files for deeper
-                  analysis in Excel or used in commonly available business
-                  intelligence tools.
-                </>
-              ) : (
-                ""
-              )}
-              {this.state.currentSlide == "connectivity" ? (
-                <>
-                  The graphs can easily be exported for presentations, documents
-                  and reports. Data can be exported as .CSV files for deeper
-                  analysis in Excel or used in commonly available business
-                  intelligence tools.
-                </>
-              ) : (
-                ""
-              )}
-              {this.state.currentSlide == "recovery" ? (
-                <>
-                  Data can be exported as .CSV files for deeper analysis in
-                  Excel or used in commonly available business intelligence
-                  tools.
-                </>
-              ) : (
-                ""
-              )}
+            <div className="dg-carousel-disclaimer  text-center">
+              The graphs can easily be exported for presentations, documents and
+              reports. <br />
+              Data can be exported as .CSV files for deeper analysis in Excel or
+              used in commonly available business intelligence tools.
             </div>
           </div>
         </div>

@@ -30,14 +30,39 @@
   width: 100%;
   flex-direction: row;
 
+  .arc-jumbo {
+    max-width: 1170px;
+  }
+
   .atd-jumbo {
     .product-header {
       font-family: main.$arc-font-bold;
     }
   }
 
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    background: main.$black;
+  }
+
   .product-header {
     font-family: main.$arc-font-semibold;
+  }
+
+  .overview {
+    .product-callout-copy {
+      max-width: 1050px;
+    }
+  }
+  .modules {
+    .product-callout-copy {
+      max-width: 950px;
+    }
+  }
+}
+
+.type-color-black {
+  .product-callout-copy {
+    font-family: SourceSansPro-Light, Arial, Helvetica, sans-serif;
   }
 }
 
@@ -47,11 +72,15 @@
   font-size: 32px;
   line-height: 32px;
   color: main.$arc-teal;
-  border: 1px solid main.$arc-teal;
+  border: 2px solid main.$arc-teal;
   border-radius: main.$border-radius;
   padding: 30px;
   margin-top: 60px;
   margin-bottom: 30px;
+  a.ctaBtn {
+    margin-top: 45px;
+  }
+
   a.ctaBtn,
   a.ctaBtn:hover,
   a.ctaBtn:focus {
@@ -80,7 +109,7 @@
   display: flex;
   background: main.$tarmac;
   color: #fff;
-  padding: 40px 20px;
+  padding: 40px 30px;
   border: 1px solid main.$fuselage;
   border-radius: 7px;
   margin-bottom: 10px;
@@ -105,7 +134,7 @@
   color: main.$white;
   font-size: 16px;
   line-height: 22px;
-  margin: 0 auto;
+  margin-left: 40px;
 }
 
 .callout-box-container {
@@ -121,12 +150,13 @@
   max-width: 768px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 120px;
 }
 
 .dg-carousel-selector {
   display: flex;
+  font-size: 18px;
   flex-direction: row;
   max-width: 563px;
   justify-content: space-between;
@@ -186,6 +216,15 @@
   }
 
   &.long {
-    max-width: 380px;
+    max-width: 360px;
   }
+}
+
+.dg-graph {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ss-system-info-item {
+  margin-bottom: 0;
 }

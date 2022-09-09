@@ -43,7 +43,6 @@ class Productjumbo extends Component {
               <div className="product-callout">
                 <h3
                   className="product-callout-copy teal"
-                  style={{ maxWidth: "750px" }}
                 >
                   {this.props.subtitle}
                 </h3>
