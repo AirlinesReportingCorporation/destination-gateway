@@ -35,7 +35,7 @@ class ProductIcons extends Component {
                       </div>
                     </div>
 
-                    <div class="dg-icon-copy">Programs and Plans</div>
+                    <div class="dg-icon-copy">Strategic Planning</div>
                   </div>
                 </div>
                 <div class="col-lg-6">
@@ -130,7 +130,7 @@ class ProductIcons extends Component {
                       </div>
                     </div>
 
-                    <div class="dg-icon-copy">Accountability</div>
+                    <div class="dg-icon-copy">Program Accountability</div>
                   </div>
                 </div>
                 <div class="col-lg-6">

@@ -29,6 +29,16 @@
 .arc-dg-page {
   width: 100%;
   flex-direction: row;
+
+  .atd-jumbo {
+    .product-header {
+      font-family: main.$arc-font-bold;
+    }
+  }
+
+  .product-header {
+    font-family: main.$arc-font-semibold;
+  }
 }
 
 .arc-image-subtitle {
@@ -104,5 +114,78 @@
   padding-top: 120px;
   .callout-box {
     border-radius: main.$border-radius-lg;
+  }
+}
+
+.dg-carousel-data-container {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.dg-carousel-selector {
+  display: flex;
+  flex-direction: row;
+  max-width: 563px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 30px;
+  background: main.$tarmac;
+  border-radius: 3px;
+  border: 1px solid main.$fuselage;
+  color: main.$fuselage;
+}
+
+.dg-carousel-selection {
+  &:hover,
+  &.active {
+    font-family: main.$arc-font-bold;
+    color: main.$white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.dg-carousel-content {
+  color: main.$landing;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.dg-carousel-timing {
+  max-width: 563px;
+  margin: 30px auto;
+  border-top: 1px solid main.$landing;
+  padding-top: 30px;
+  display: flex;
+}
+
+.dg-carousel-disclaimer {
+  font-size: 14px;
+  line-height: 20px;
+  color: main.$landing;
+  margin-top: 60px;
+}
+
+.dg-carousel-timing {
+  display: flex;
+  justify-content: center;
+}
+
+.dg-carousel-timing-item {
+  margin-right: 15px;
+  color: main.$landing;
+  img {
+    margin-right: 10px;
+  }
+
+  &.long {
+    max-width: 380px;
   }
 }
