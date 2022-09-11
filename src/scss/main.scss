@@ -32,7 +32,8 @@
   flex-direction: row;
 
   .light-font {
-    font-family: SourceSansPro-Light, SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+    font-family: SourceSansPro-Light, SourceSansPro-Regular, Arial, Helvetica,
+      sans-serif;
   }
 
   .ss-row {
@@ -256,4 +257,18 @@
 
 .ss-system-info-item {
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767.999px) {
+  .dg-carousel-selector {
+    flex-direction: column;
+  }
+  .dg-carousel-selection {
+    width: 115px;
+    margin: 0 auto 15px;
+  }
+
+  .arc-jumbo {
+    background: transparent !important;
+  }
 }
