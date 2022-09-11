@@ -67,7 +67,7 @@ class App extends Component {
     return (
       <div id="top" className="arc-dg-page">
         <Stickynav
-          title={"Desination Gateway"}
+          title={"Destination Gateway"}
           links={[
             { title: "Overview", url: "#overview" },
             { title: "Partnership", url: "#partnership" },
