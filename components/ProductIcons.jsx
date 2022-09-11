@@ -16,7 +16,7 @@ class ProductIcons extends Component {
             <div class="text-center">
               <div class="row">
                 <div class="col-lg-12">
-                  <div className="dg-icon-title text-center">
+                  <div className="dg-icon-title text-center" style={{marginTop: "60px"}}>
                     With access to Destination Gateway data, you will be able to
                     enhance:
                   </div>
