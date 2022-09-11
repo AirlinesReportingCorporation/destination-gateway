@@ -32,6 +32,10 @@
 
   .arc-jumbo {
     max-width: 1170px;
+    background: transparent;
+    img {
+      border-radius: main.$border-radius-lg;
+    }
   }
 
   .atd-jumbo {
@@ -40,13 +44,17 @@
     }
   }
 
-  .swiper-button-prev, .swiper-rtl .swiper-button-next {
-    background: url("https://www2.arccorp.com/globalassets/destination-gateway/left.png") center center no-repeat;
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    background: url("https://www2.arccorp.com/globalassets/destination-gateway/left.png")
+      center center no-repeat;
     left: 14%;
   }
 
-  .swiper-button-next, .swiper-rtl .swiper-button-prev{
-    background: url("https://www2.arccorp.com/globalassets/destination-gateway/right.png") center center no-repeat;
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    background: url("https://www2.arccorp.com/globalassets/destination-gateway/right.png")
+      center center no-repeat;
     right: 14%;
   }
 

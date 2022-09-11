@@ -218,40 +218,60 @@ class App extends Component {
                 <div
                   id="1"
                   className="arc-jumbo lazy"
-                  data-bg={
-                    "https://www2.arccorp.com/globalassets/destination-gateway/Performance_SS.jpg"
-                  }
                   style={{ alignItems: "flex-end" }}
-                ></div>
+                >
+                  <img
+                    className="lazy img-fluid"
+                    src={
+                      "https://www2.arccorp.com/globalassets/destination-gateway/Performance_SS.jpg"
+                    }
+                    alt="Performance"
+                  />
+                </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div
                   className="arc-jumbo lazy"
-                  data-bg={
-                    "https://www2.arccorp.com/globalassets/destination-gateway/Agencies_SS.jpg"
-                  }
                   style={{ alignItems: "flex-end" }}
-                ></div>
+                >
+                  <img
+                    className="lazy img-fluid"
+                    src={
+                      "https://www2.arccorp.com/globalassets/destination-gateway/Agencies_SS.jpg"
+                    }
+                    alt="Performance"
+                  />
+                </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div
-                  className="arc-jumbo lazy"
-                  data-bg={
-                    "https://www2.arccorp.com/globalassets/destination-gateway/Connectivity_SS.jpg"
-                  }
+                  className="arc-jumbo"
                   style={{ alignItems: "flex-end" }}
-                ></div>
+                >
+                  <img
+                    className="lazy img-fluid"
+                    src={
+                      "https://www2.arccorp.com/globalassets/destination-gateway/Connectivity_SS.jpg"
+                    }
+                    alt="Connectivity"
+                  />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div
-                  className="arc-jumbo lazy"
-                  data-bg={
-                    "https://www2.arccorp.com/globalassets/destination-gateway/Recovery_SS.jpg"
-                  }
+                  className="arc-jumbo"
                   style={{ alignItems: "flex-end" }}
-                ></div>
+                >
+                  <img
+                    className="lazy img-fluid"
+                    src={
+                      "https://www2.arccorp.com/globalassets/destination-gateway/Recovery_SS.jpg"
+                    }
+                    alt="Recovery"
+                  />
+                </div>
               </SwiperSlide>
             </Swiper>
           </div>
