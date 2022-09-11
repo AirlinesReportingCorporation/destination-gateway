@@ -121,7 +121,7 @@ class App extends Component {
               Functional Collaboration
             </span>
           }
-          subtitleColor={"lightgray"}
+          subtitleColor={"lightgray light-font"}
           subtitle={
             <>
               <span>ARC and ForwardKeys</span> have partnered to offer a
@@ -164,7 +164,7 @@ class App extends Component {
           title={
             <span className="type-color-white">Comprehensive Travel Data</span>
           }
-          subtitleColor={"lightgray"}
+          subtitleColor={"lightgray light-font"}
           subtitle={
             <>
               Destination Gateway receives global air travel data and interest

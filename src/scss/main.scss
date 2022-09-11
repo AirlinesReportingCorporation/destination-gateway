@@ -30,6 +30,10 @@
   width: 100%;
   flex-direction: row;
 
+  .light-font {
+    font-family: SourceSansPro-Light, SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+  }
+
   .arc-jumbo {
     max-width: 1170px;
     background: transparent;
