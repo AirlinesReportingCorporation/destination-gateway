@@ -218,7 +218,7 @@ class App extends Component {
                 <div
                   id="1"
                   className="arc-jumbo lazy"
-                  style={{ alignItems: "flex-end" }}
+                  style={{ alignItems: "center" }}
                 >
                   <img
                     className="lazy img-fluid"
@@ -233,7 +233,7 @@ class App extends Component {
               <SwiperSlide>
                 <div
                   className="arc-jumbo lazy"
-                  style={{ alignItems: "flex-end" }}
+                  style={{ alignItems: "center" }}
                 >
                   <img
                     className="lazy img-fluid"
@@ -248,7 +248,7 @@ class App extends Component {
               <SwiperSlide>
                 <div
                   className="arc-jumbo"
-                  style={{ alignItems: "flex-end" }}
+                  style={{ alignItems: "center" }}
                 >
                   <img
                     className="lazy img-fluid"
@@ -262,7 +262,7 @@ class App extends Component {
               <SwiperSlide>
                 <div
                   className="arc-jumbo"
-                  style={{ alignItems: "flex-end" }}
+                  style={{ alignItems: "center" }}
                 >
                   <img
                     className="lazy img-fluid"
