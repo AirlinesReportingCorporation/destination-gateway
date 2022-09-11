@@ -82,7 +82,7 @@ class App extends Component {
           title={
             <>
               Insights to Grow
-              <br /> Desinations
+              <br /> Destinations
             </>
           }
           subtitle={
