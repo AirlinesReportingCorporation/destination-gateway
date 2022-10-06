@@ -95,7 +95,7 @@ class App extends Component {
               your destination management and marketing strategies.
             </>
           }
-          ctaLink={"mailto:dataproducts@arccorp.com"}
+          ctaLink={"https://www2.arccorp.com/support-training/product-sales-request?Product=Destination_Gateway"}
         />
         <ProductText
           id="overview"
@@ -149,7 +149,7 @@ class App extends Component {
                     ARC is recognized as the most reliable and trusted source of
                     air travel data.
                   </div>
-                  <a href="mailto:dataproducts@arccorp.com" className="ctaBtn">
+                  <a href="https://www2.arccorp.com/support-training/product-sales-request?Product=Destination_Gateway" className="ctaBtn">
                     Let's Get Started
                   </a>
                 </div>
