@@ -74,6 +74,8 @@ class App extends Component {
             { title: "How It Works", url: "#howitworks" },
             { title: "Modules", url: "#modules" },
           ]}
+          contactUs="Learn More"
+          rightLink={"https://www2.arccorp.com/support-training/product-sales-request?Product=Destination_Gateway"}
         />
         <Productjumbo
           backgroundImage={
