@@ -459,7 +459,7 @@ class App extends Component {
                       src="https://www2.arccorp.com/globalassets/destination-gateway/dg-previous.png"
                       alt=""
                     />
-                    Rolling 12 weeks of data
+                    Rolling 52 weeks of data
                   </div>
                 </>
               ) : (
