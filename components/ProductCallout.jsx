@@ -33,9 +33,15 @@ class ProductCallout extends Component {
                 </div>
                 <a
                   href="https://www2.arccorp.com/support-training/product-sales-request?Product=Destination_Gateway"
-                  class="ctaBtn ctaBtn--white  product-cta"
+                  class="ctaBtn ctaBtn--white  product-cta mr-4"
                 >
                   Let's get started
+                </a>
+                <a
+                  href="https://www2.arccorp.com/globalassets/datasheets/destination-gateway-product-sheet.pdf"
+                  class="ctaBtn ctaBtn--white-outline  product-cta"
+                >
+                  Product Sheet
                 </a>
               </div>
             </div>

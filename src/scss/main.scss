@@ -31,6 +31,10 @@
   width: 100%;
   flex-direction: row;
 
+  .ctaBtn--white-outline:hover {
+    color: #189bb0 !important;
+  }
+
   .light-font {
     font-family: SourceSansPro-Light, SourceSansPro-Regular, Arial, Helvetica,
       sans-serif;
