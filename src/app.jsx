@@ -43,7 +43,9 @@ class App extends Component {
       this.setState({ currentSlide: "agencies" });
     } else if (activeIndex == 4) {
       this.setState({ currentSlide: "connectivity" });
-    } else if (activeIndex == 5 || activeIndex == 1) {
+    } else if (activeIndex == 5) {
+      this.setState({ currentSlide: "events" });
+    } else if (activeIndex == 6 || activeIndex == 1) {
       this.setState({ currentSlide: "recovery" });
     }
   };
@@ -56,8 +58,10 @@ class App extends Component {
       this.swiperRef.current.swiper.slideTo(3);
     } else if (val == "connectivity") {
       this.swiperRef.current.swiper.slideTo(4);
-    } else if (val == "recovery") {
+    } else if (val == "events") {
       this.swiperRef.current.swiper.slideTo(5);
+    } else if (val == "recovery") {
+      this.swiperRef.current.swiper.slideTo(6);
     }
 
     this.setState({ currentSlide: val });
@@ -75,7 +79,9 @@ class App extends Component {
             { title: "Modules", url: "#modules" },
           ]}
           contactUs="Learn More"
-          rightLink={"https://www2.arccorp.com/support-training/product-sales-request?Product=Destination_Gateway"}
+          rightLink={
+            "https://www2.arccorp.com/support-training/product-sales-request?Product=Destination_Gateway"
+          }
         />
         <Productjumbo
           backgroundImage={
@@ -97,14 +103,16 @@ class App extends Component {
               your destination management and marketing strategies.
             </>
           }
-          ctaLink={"https://www2.arccorp.com/support-training/product-sales-request?Product=Destination_Gateway"}
+          ctaLink={
+            "https://www2.arccorp.com/support-training/product-sales-request?Product=Destination_Gateway"
+          }
         />
         <ProductText
           id="overview"
           className="bg-color-white overview"
           title={
             <>
-              Generate Demand <br />
+              Understand the Demand <br />
               for Your Destination
             </>
           }
@@ -151,7 +159,10 @@ class App extends Component {
                     ARC is recognized as the most reliable and trusted source of
                     air travel data.
                   </div>
-                  <a href="https://www2.arccorp.com/support-training/product-sales-request?Product=Destination_Gateway" className="ctaBtn">
+                  <a
+                    href="https://www2.arccorp.com/support-training/product-sales-request?Product=Destination_Gateway"
+                    className="ctaBtn"
+                  >
                     Let's Get Started
                   </a>
                 </div>
@@ -191,8 +202,8 @@ class App extends Component {
           subtitleColor={"lightgray"}
           subtitle={
             <>
-              The four modules, Performance, Connectivity, Agencies, and
-              Recovery, provide some of the most comprehensive data and travel
+              The five modules, Performance, Connectivity, Agencies, and Events,
+              and Demand, provide some of the most comprehensive data and travel
               analyses.
             </>
           }
@@ -213,7 +224,10 @@ class App extends Component {
               modules={[Navigation]}
               className="arc-jumbo-swiper"
               normalizeSlideIndex={true}
-              onSlideChange={(swiper) => this.setSlide(swiper.activeIndex)}
+              onSlideChange={(swiper) => {
+                this.setSlide(swiper.activeIndex);
+                console.log(swiper.activeIndex);
+              }}
               ref={this.swiperRef}
             >
               <SwiperSlide>
@@ -242,16 +256,13 @@ class App extends Component {
                     src={
                       "https://www2.arccorp.com/globalassets/destination-gateway/Agencies_SS.jpg"
                     }
-                    alt="Performance"
+                    alt="Agencies"
                   />
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
-                <div
-                  className="arc-jumbo"
-                  style={{ alignItems: "center" }}
-                >
+                <div className="arc-jumbo" style={{ alignItems: "center" }}>
                   <img
                     className="lazy img-fluid"
                     src={
@@ -261,11 +272,24 @@ class App extends Component {
                   />
                 </div>
               </SwiperSlide>
+
               <SwiperSlide>
                 <div
-                  className="arc-jumbo"
+                  className="arc-jumbo lazy"
                   style={{ alignItems: "center" }}
                 >
+                  <img
+                    className="lazy img-fluid"
+                    src={
+                      "https://www2.arccorp.com/globalassets/destination-gateway/Events_SS.png"
+                    }
+                    alt="Events"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="arc-jumbo" style={{ alignItems: "center" }}>
                   <img
                     className="lazy img-fluid"
                     src={
@@ -297,6 +321,7 @@ class App extends Component {
               >
                 Agencies
               </div>
+
               <div
                 onClick={() => this.clickSwipe("connectivity")}
                 className={
@@ -307,13 +332,22 @@ class App extends Component {
                 Connectivity
               </div>
               <div
+                onClick={() => this.clickSwipe("events")}
+                className={
+                  "dg-carousel-selection " +
+                  (this.state.currentSlide == "events" ? "active" : "")
+                }
+              >
+                Events
+              </div>
+              <div
                 onClick={() => this.clickSwipe("recovery")}
                 className={
                   "dg-carousel-selection " +
                   (this.state.currentSlide == "recovery" ? "active" : "")
                 }
               >
-                Recovery
+                Demand
               </div>
             </div>
             <div className="dg-carousel-content">
@@ -348,6 +382,19 @@ class App extends Component {
               ) : (
                 ""
               )}
+              {this.state.currentSlide == "events" ? (
+                <>
+                  The events module allows you to track global events and access
+                  flight data, ticket sales, arrivals and origin markets. With
+                  this visual dashboard, you can compare event data, forecast
+                  demand and monitor changes over time. Gain insights into
+                  traveler behavior and intent, enhance visitor loyalty and
+                  attract repeat trips. Leverage data-driven decision-making for
+                  effective destination management.
+                </>
+              ) : (
+                ""
+              )}
               {this.state.currentSlide == "connectivity" ? (
                 <>
                   The Connectivity module allows you to compare two or more
@@ -366,7 +413,7 @@ class App extends Component {
               )}
               {this.state.currentSlide == "recovery" ? (
                 <>
-                  The Recovery module allows you to understand where your
+                  The Demand module allows you to understand where your
                   destination is on the road to recovering from the travel
                   impacts of the pandemic. You can chart inbound travel by
                   comparing the evolution of ticket sales with travel intent as
@@ -416,7 +463,7 @@ class App extends Component {
                       src="https://www2.arccorp.com/globalassets/destination-gateway/dg-previous.png"
                       alt=""
                     />
-                    Previous 12 months + the next six months
+                    Previous 12 months + the next 6 months
                   </div>
                 </>
               ) : (
@@ -437,9 +484,30 @@ class App extends Component {
                       alt=""
                       style={{ height: "27px", width: "27px" }}
                     />
-                    Rolling 12 months, with six months of historical and
+                    Rolling 12 months, with 6 months of historical and
                     forward-looking data and an option to compare today’s travel
                     levels with pre-COVID-19 levels.
+                  </div>
+                </>
+              ) : (
+                ""
+              )}
+              {this.state.currentSlide == "events" ? (
+                <>
+                  <div className="dg-carousel-timing-item">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/destination-gateway/dg-update.png"
+                      alt=""
+                    />
+                    Updates Weekly
+                  </div>
+                  <div className="dg-carousel-timing-item long d-flex">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/destination-gateway/dg-previous.png"
+                      alt=""
+                      style={{ height: "27px", width: "27px" }}
+                    />
+                    Rolling 52 weeks of data
                   </div>
                 </>
               ) : (
