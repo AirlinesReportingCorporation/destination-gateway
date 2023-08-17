@@ -239,7 +239,7 @@ class App extends Component {
                   <img
                     className="lazy img-fluid"
                     src={
-                      "https://www2.arccorp.com/globalassets/destination-gateway/Performance_SS.jpg"
+                      "https://www2.arccorp.com/globalassets/destination-gateway/performance.jpg"
                     }
                     alt="Performance"
                   />
@@ -254,7 +254,7 @@ class App extends Component {
                   <img
                     className="lazy img-fluid"
                     src={
-                      "https://www2.arccorp.com/globalassets/destination-gateway/Agencies_SS.jpg"
+                      "https://www2.arccorp.com/globalassets/destination-gateway/agencies.jpg"
                     }
                     alt="Agencies"
                   />
@@ -266,7 +266,7 @@ class App extends Component {
                   <img
                     className="lazy img-fluid"
                     src={
-                      "https://www2.arccorp.com/globalassets/destination-gateway/Connectivity_SS.jpg"
+                      "https://www2.arccorp.com/globalassets/destination-gateway/connectivity.jpg"
                     }
                     alt="Connectivity"
                   />
@@ -281,7 +281,7 @@ class App extends Component {
                   <img
                     className="lazy img-fluid"
                     src={
-                      "https://www2.arccorp.com/globalassets/destination-gateway/Events_SS.png"
+                      "https://www2.arccorp.com/globalassets/destination-gateway/event.jpg"
                     }
                     alt="Events"
                   />
@@ -293,7 +293,7 @@ class App extends Component {
                   <img
                     className="lazy img-fluid"
                     src={
-                      "https://www2.arccorp.com/globalassets/destination-gateway/Recovery_SS.jpg"
+                      "https://www2.arccorp.com/globalassets/destination-gateway/demand.jpg"
                     }
                     alt="Recovery"
                   />
