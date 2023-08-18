@@ -182,7 +182,7 @@ class App extends Component {
             <>
               Destination Gateway receives global air travel data and interest
               in travel from multiple sources. The data are processed and
-              presented to users in intuitive graphs and tables in four distinct
+              presented to users in intuitive graphs and tables in five distinct
               modules. The modules are updated automatically, so customers
               always have the latest information to review, and can easily be
               filtered for comprehensive analysis and reporting.
