@@ -384,7 +384,7 @@ class App extends Component {
               )}
               {this.state.currentSlide == "events" ? (
                 <>
-                  The events module allows you to track global events and access
+                  The Events module allows you to track global events and access
                   flight data, ticket sales, arrivals and origin markets. With
                   this visual dashboard, you can compare event data, forecast
                   demand and monitor changes over time. Gain insights into
