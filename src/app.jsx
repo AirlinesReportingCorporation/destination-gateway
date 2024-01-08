@@ -401,8 +401,8 @@ class App extends Component {
                   airline data combinations (source
                   market/destinations/airline/date range) to understand details
                   about how airlines serve your area. This information helps
-                  facilitate informed decisions and negotiations with airlines
-                  and other travel-related providers. Seat capacity data
+                  facilitate informed decisions and effective conversations with
+                  airlines and other travel providers. Seat capacity data
                   provides a comprehensive market view by utilizing 99% of all
                   global commercial flights. The data is provided by OAG and
                   then enriched by ForwardKeys. Worldwide source markets are
